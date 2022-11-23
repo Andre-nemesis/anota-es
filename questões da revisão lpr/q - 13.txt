@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    //questão 13
+    
+    int variavel_auxiliar = 0,n,i;
+    
+    scanf("%d",&n);
+    
+    for(i = 1 ; i*(i+1)*(i+2)<=n ; i++)    
+    {
+    if(i*(i+1)*(i+2)==n)
+    {
+        variavel_auxiliar = 1;
+    }
+    }
+    if (variavel_auxiliar) printf("SIM\n");
+    else                   printf("NAO\n");
+    
+    return 0;
+}

@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    //questão 3
+    
+    int x,n,calc;
+    
+    printf("Calculadora de potencia\n");
+    printf("Digite um nuemro\n");
+    scanf("%d",&x);
+    printf("Digite um numero para a potencia\n");
+    scanf("%d",&n);
+    
+    while (n < 0) {
+        printf("Valor de potencia invalido\nTente novamente\n");
+        scanf("%d",&n);
+    }
+    
+    calc = pow(x,n);
+    
+    printf("Esse foi o resultado: %d",calc);
+
+    return 0;
+}

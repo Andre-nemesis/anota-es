@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    //questão 11
+    
+    int n1,n2,n3,soma;
+    
+    scanf("%d %d %d",&n1,&n2,&n3);
+    
+    if (n1 > n2 && n2 > n3) {
+        soma = n1 + n2;
+    } else if (n1 > n2 && n3 > n2) {
+        soma = n1 + n3;
+    } else if (n1 < n2 && n1 > n3) {
+        soma = n2 + n1;
+    } else if (n1 < n2 && n3 > n1) {
+        soma = n2 + n3;
+    } else if (n3 > n1 && n1 > n2) {
+       soma = n3 + n1;
+    } else if (n3 > n1 && n2 > n1) {
+        soma = n3 + n2;
+    }
+    
+    printf("Soma = %d",soma);
+    
+    return 0;
+}
