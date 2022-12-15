@@ -20,7 +20,7 @@ int main () {
 	
 	dobro(a,b);
 	
-	//printf("%d",dobro(x)); pode usar isso quando não tem algo pra mostrar na função ou criar uma variavel para receber o resultado da função -> X = dobro(x); -- printf("%d",X);
+	//printf("%d",dobro(x)); pode usar isso quando nÃ£o tem algo pra mostrar na funÃ§Ã£o ou criar uma variavel para receber o resultado da funÃ§Ã£o -> X = dobro(x); -- printf("%d",X);
 	
 	return 1;
 }
